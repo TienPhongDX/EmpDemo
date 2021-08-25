@@ -18,5 +18,47 @@ public class EmployeeServiceImpl implements EmployeeService {
 		return employeeRepository.findAll();
 	}
 
+	@Override
+	public Employee EmpAdd() {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Employee EmpItem(int id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Employee EmpUpdate(int id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Employee EmpChangePassword(int id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Employee EmpFilterById(int id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public Iterable<Employee> EmpFilterByName(String name) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public String EmpDelete(int id) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
 
 }
