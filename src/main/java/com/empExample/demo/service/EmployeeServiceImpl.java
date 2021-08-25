@@ -14,30 +14,9 @@ public class EmployeeServiceImpl implements EmployeeService {
 	private EmployeeRepository employeeRepository;
 
 	@Override
-	public Iterable<Employee> findAll() {
+	public Iterable<Employee> EmpList() {
 		return employeeRepository.findAll();
 	}
 
-	@Override
-	public List<Employee> search(String q) {
-		return employeeRepository.findByNameContaining(q);
-	}
-
-	@Override
-	public Employee findOne(int id) {
-		return employeeRepository.findOne(id);
-	}
-
-	@Override
-	public void save(Employee contact) {
-		employeeRepository.save(contact);
-		
-	}
-
-	@Override
-	public void delete(int id) {
-		employeeRepository.deleteById(id);;
-		
-	}
 
 }
